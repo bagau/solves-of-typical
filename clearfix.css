@@ -1,0 +1,18 @@
+/* Clearfix from Youtube */
+
+.clearfix:before {
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix:after {
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+/* /Clearfix from Youtube */
